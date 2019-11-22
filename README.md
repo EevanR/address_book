@@ -2,9 +2,9 @@
 Address book is a web applitcation that users can use to store contacts in the browsers local storage, and remove these contacts when desired. 
 
 ## Dependencies
-Written in javaScript
-Feature test with Cucumber 
-Package Manager: Yarn lockfile v1
+- Written in javaScript
+- Feature test with Cucumber 
+- Package Manager: Yarn lockfile v1
 
 ## Setup
 #### Clone repository
@@ -19,9 +19,10 @@ cd address_book
 ```
 
 #### Install dependencies
-For testing
+
 Install Yarn with instruction from their website:
 https://yarnpkg.com/en/docs/install
+
 When installed, run initialize in terminal:
 ```
 yarn init
@@ -40,7 +41,7 @@ open index.html
 Fill in as desired and press Save conact
 When relationship has ended, use the necessary delete button.
 
-Run testing
+Run testing, use command terminal
 ```
 yarn run cucumber
 ```
