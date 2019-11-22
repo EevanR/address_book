@@ -1,6 +1,32 @@
 # Address Book Challenge 2019
 Address book is a web applitcation that users can use to store contacts in the browsers local storage, and remove these contacts when desired. 
 
+## User Stories
+Create a new contact
+```
+As a user
+To stay in touch with my friends
+I would like to be able to create a contact for them in my address book
+```
+List contacts
+```
+As a user
+In order to contact my friends
+I would like to be able to view a list of my saved contacts
+```
+Update existing contacts
+```
+As a user
+In order to keep my friends' contact details accurate
+I would like to be able to update them when needed
+```
+Delete existing contacts
+```
+As a user
+In order to keep my contact list up to date
+I would like to be able to delete contacts
+```
+
 ## Dependencies
 - Written in javaScript
 - Feature test with Cucumber 
@@ -38,7 +64,7 @@ Open the web page, in terminal:
 ```
 open index.html
 ```
-Fill in as desired and press Save conact
+Fill in as desired and press Save contact
 When relationship has ended, use the necessary delete button.
 
 Run testing, use command terminal
@@ -57,3 +83,4 @@ Further styling using cdnjs semantic ui
 
 ## License
 Created under the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT License</a>.
+
