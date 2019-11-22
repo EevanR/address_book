@@ -3,7 +3,6 @@
   In order to stay in touch with my friends
   I would like to be able to create a contact for them in my address book
 
-
   Scenario: User creates multiple contacts
     Given I visit the site
     Then I should see "Contacts"

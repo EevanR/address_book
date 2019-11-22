@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const addContactForm = document.querySelector('.new-contact-form')
   const deleteContact = document.querySelector('.contact-list')
 
-  
   deleteContact.addEventListener('click', event => {
     const storage = window.localStorage
     const clickedButton = event.target.id
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
   addContactForm.addEventListener('submit', event => {
     event.preventDefault()
    
-    
     const {
       name,
       email,
@@ -69,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
       twitter,
     } = addContactForm.elements
 
-  
     const contact = {
       id: Date.now(),
       name: name.value,
