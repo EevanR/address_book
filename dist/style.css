@@ -19,3 +19,37 @@
   margin-left: 20px;
 }
 
+button, input {
+  background-color: rgb(33, 133, 208);
+  color: white;
+  line-height: 2;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.ui.special.cards {
+  margin-top: 20px;
+  float: left;
+}
+
+.contact-list {
+  max-width: 1180px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.ui.form {
+  width: 723px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  line-height: 30px;
+  background-color: darkgray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.image {
+  min-width: 250px;
+  min-height: 300px;
+}
