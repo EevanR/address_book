@@ -5,9 +5,8 @@
 
   Scenario: User creates multiple contacts
     Given I visit the site
-    Then I should see "Contacts"
+    Then I should see "Add New Contacts"
     And I should see "You have no contacts in your address book"
-    When I click "Add contact"
     Then I fill in "Name" with "John Doe"
     And I fill in "Email" with "john@doe.com"
     And I fill in "Phone" with "0123456789"
@@ -15,7 +14,6 @@
     And I fill in "Notes" with "A really awesome guy :-)"
     And I fill in "Twitter" with "johndoe"
     And I click "Save contact"
-    When I click "Add contact"
     Then I fill in "Name" with "Jane Doe"
     And I fill in "Email" with "jane@doe.com"
     And I fill in "Phone" with "01111111111"
@@ -29,4 +27,3 @@
     And I should not see "You have no contacts in your address book"
     When I click "delete contact"
     Then I should have 1 contact in my address book
-  
