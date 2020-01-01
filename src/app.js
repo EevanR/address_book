@@ -15,7 +15,7 @@ const renderContacts = () => {
           <div class="ui special cards">
             <div class="card">
               <div class="image">
-                <img src="https://ca-address-book.herokuapp.com/images/pine.jpg" />
+                <img src="https://imgur.com/eKTrq59" />
               </div>
               <button class="delete-contact" button id="remove-btn-${pos}">Delete Contact ${ contact.name }</button>
               <div class="content">
